@@ -45,7 +45,9 @@ smaller exercises as well as larger projects.
 07.15.2017 | 08:00 - 12:00 | Introduction to Hybrid parallelism
 
 
-**Anyone is free to use this teaching material. A reference to this repository would however be expected**
+
+
+**Anyone is free to use this teaching material. In the latter case, a reference to this repository would however be expected**
 
 
 
