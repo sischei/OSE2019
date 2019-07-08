@@ -16,7 +16,7 @@
 # there are many partitions on Midway1 and it is important to specify which
 # partition you want to run your job on. Not having the following option, the
 # sandby partition on Midway1 will be selected as the default partition
-#SBATCH --partition=sandyb
+#SBATCH --partition=broadwl
 
 # Run the process 
 ./helloworld.exec
