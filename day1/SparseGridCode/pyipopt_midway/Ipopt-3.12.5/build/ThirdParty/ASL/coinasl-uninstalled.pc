@@ -1,0 +1,9 @@
+prefix=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+libdir=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.2.15
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL -I/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/solvers

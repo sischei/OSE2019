@@ -1,0 +1,10 @@
+prefix=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+libdir=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/HSL
+
+Name: HSL
+Description: Harwell Subroutines Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.4.5
+Cflags: -I/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/HSL -I/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/HSL
+Libs: ${libdir}/libcoinhsl.la -lblas   -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath
+Requires: coinmetis 

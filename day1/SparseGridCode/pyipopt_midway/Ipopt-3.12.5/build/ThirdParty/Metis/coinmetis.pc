@@ -1,0 +1,11 @@
+prefix=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin/ThirdParty
+
+Name: Metis
+Description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.2.9
+Libs: -L${libdir} -lcoinmetis
+Cflags: -I${includedir}
