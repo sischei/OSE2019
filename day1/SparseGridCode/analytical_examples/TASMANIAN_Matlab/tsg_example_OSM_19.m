@@ -1,6 +1,3 @@
-ls
-
-
 close all;
 clear all;
 clc;
@@ -14,7 +11,7 @@ plot_choice = 1; % 0=make no plots; 1=make plots
 % tsg_example_OSM_18()
 %
 % this is example source code on how to call the different functions of TASMANIAN
-% prepared for OSM 07/18
+% prepared for OSM 07/19
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
