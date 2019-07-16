@@ -159,7 +159,7 @@ grid2.makeLocalPolynomialGrid(iDim, iOut, refinement_level+iDepth, which_basis, 
 a = grid2.getNumPoints()
  
 print("\n-------------------------------------------------------------------------------------------------")
-print "   a fix sparse grid of level ", refinement_level+iDepth, " would consist of " ,a, " points"
+print( "   a fix sparse grid of level ", refinement_level+iDepth, " would consist of " ,a, " points")
 print("\n-------------------------------------------------------------------------------------------------\n")    
 
 
