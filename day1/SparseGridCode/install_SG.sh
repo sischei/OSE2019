@@ -21,4 +21,9 @@ cd pyipopt_midway
 ./install_midway.sh
 echo " IPOPT and PYIPOPT is installed "
 
-
+cd
+pwd=`pwd`
+echo 'module load python' >> ~/.bashrc 
+echo 'export LD_LIBRARY_PATH='$PREFIX'/lib:'$LD_LIBRARY_PATH
+echo 'export IPOPT_DIR="'$pwd'/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build"'
+echo 'export LD_LIBRARY_PATH='$IPOPT_DIR'/lib:'$LD_LIBRARY_PATH
