@@ -1,5 +1,5 @@
 # Set up the environment
-module load python/2.7-2015q2
+module load python
 
 export LD_LIBRARY_PATH=$PREFIX/lib:$LD_LIBRARY_PATH
 export IPOPT_DIR="`pwd`/Ipopt-3.12.5/build"
