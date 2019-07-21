@@ -26,4 +26,4 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 # Run the process with mpirun. Notice -n is not required. mpirun will
 # automatically figure out how many processes to run from the slurm options
 ### openmp executable
-./1.hello_world.exec
+./4a.integration_pi.exec
