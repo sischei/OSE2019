@@ -1,2 +1,2 @@
-module load gcc/4.8
+ module switch gcc gcc/7.2.0
 module load mkl/11.2
