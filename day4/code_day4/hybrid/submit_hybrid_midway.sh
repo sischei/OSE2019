@@ -1,5 +1,5 @@
 #!/bin/bash
-# a sample job submission script to submit a hybrid MPI/OpenMP job to the sandyb 
+# a sample job submission script to submit a hybrid MPI/OpenMP job to the broadwl
 # partition on Midway please change the --partition option if you want to use 
 # another partition on Midway
 
@@ -16,8 +16,8 @@
 # and request 8 cpus per task for OpenMP threads
 #SBATCH --cpus-per-task=8
 
-# this job will run in the sandyb partition on Midway
-#SBATCH --partition=sandyb
+# this job will run in the broadwl partition on Midway
+#SBATCH --partition=broadwl
 
 # load the openmpi default module
 module load openmpi
